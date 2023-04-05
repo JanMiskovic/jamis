@@ -1,0 +1,101 @@
+body{ text-align: center; margin: 0 auto;width: 100%; height: auto; color: #333333; background: url(../img/bg.jpg) #fff no-repeat; font-size: 11pt; font-family: 'Open Sans', sans-serif; }
+
+h1 { color: #fff; }
+h2 { color: #e51d25; font-size: 13pt; }
+h3 {  }
+h4 {  }
+h5 {  }
+
+
+#container { margin: 0 auto; text-align: center; }
+.content { width: 1000px; height: auto; margin: 0 auto; text-align: left; }
+
+header { width: 1000px; height: 110px; position: relative; }
+#logo { width: 236px; height: 72px; display: block; float: left; margin-top: 22px; }
+#logo:hover { opacity: 0.8; }
+.flags { position: absolute; left: -70px; top: 20px; opacity: 0.2; }
+
+ul li { margin: 10px 0px 5px 30px; list-style: disc; }
+
+ul.menu li { float: right; margin-top: 0px; position: relative; list-style: none; margin: 0px; }
+ul.menu a { float: right; display: block; color: #fff; background: #da3b3b; padding: 45px 45px; cursor: pointer; font-size: 13pt; }
+ul.menu a.two { float: right; display: block; color: #fff; background: #d13737; padding: 45px 40px; cursor: pointer; font-size: 13pt; }
+ul.menu a:hover { text-decoration: none; background: #ba1a1a; }
+.sub-menu { position: absolute;top: 0;z-index: 100; margin-top: 107px;}
+ul.sub-menu a { float: right; display: block; color: #fff; background: #da3b3b; padding: 12px 35px; cursor: pointer; font-size: 11pt; line-height: 25px; border-top: 1px solid #ea7070; }
+.slider { margin-top: -1px; position: relative; width: 1000px; height: 330px; }
+.slidersips { position: absolute; top: 268px; left: -12px; background: url(../img/sipka.png) no-repeat; width: 12px; height: 8px; }
+.slidersips-color { position: absolute; width: auto; height: 70px; background: #da3b3b; top: 200px; left: -12px; opacity: 0.9; color: #fff; line-height: 65px; font-size: 24pt; padding: 0px 30px 0px 40px; }
+.slider-kto-sme { margin-top: -1px; position: relative; width: 1000px; height: 210px; background: url(../img/slider-kto-sme.jpg) no-repeat; }
+.sliderfoto1 { margin-top: -1px; position: relative; width: 1000px; height: 330px; background: url(../img/slider1.jpg) no-repeat; }
+.sliderfoto2 { margin-top: -1px; position: relative; width: 1000px; height: 330px; background: url(../img/slider2.jpg) no-repeat; }
+.sliderfoto3 { margin-top: -1px; position: relative; width: 1000px; height: 330px; background: url(../img/slider3.jpg) no-repeat; }
+.sliderfoto4 { margin-top: -1px; position: relative; width: 1000px; height: 330px; background: url(../img/slider4.jpg) no-repeat; }
+
+.form { width: 300px; margin-bottom: 15px; border-radius: 3px; border: 1px solid #b6b6b6; height: 23px; padding: 0px 5px; }
+.form3 { width: 298px; height: 100px; border-radius: 3px; border: 1px solid #b6b6b6; padding: 5px 5px; font-family: 'Open Sans', sans-serif; }
+.send { background: #e51d25; color: #fff; border-radius: 3px; border: 1px solid #940000; padding: 7px 10px; font-weight: bold; font-family: 'Open Sans', sans-serif; font-size: 10.5pt; cursor: pointer; }
+.send:hover { background: #d50911; color: #fff; border-radius: 3px; border: 1px solid #940000; }
+.methodman { margin-top: -23px; }
+
+#news { margin-top: 30px; }
+#news .novinka { float: left; border: 1px solid #e5e5e5; padding: 10px; display: block; width: 470px; }
+#news .novinka2 { float: left; border: 1px solid #e5e5e5; padding: 10px; display: block; width: 470px; margin-left: 16px; }
+#news .novinka:hover { opacity: 0.8; }
+#news .novinka2:hover { opacity: 0.8; }
+#news .novinka-text { float: left; background: #f4f4f4; display: block; width: 492px; margin-top: 2px; line-height: 45px; font-size: 13pt; }
+#news .novinka-text2 { float: left; background: #f4f4f4; display: block; width: 492px; margin-top: 2px; margin-left: 16px; line-height: 45px; font-size: 13pt; }
+
+#obsah { margin-top: 30px; }
+#obsah .coll75 { float: left; text-align: left; width: 700px; }
+#obsah .coll75 .nadpis { font-weight: bold; color: #e61a2b; text-transform: uppercase; text-align: left; font-size: 14pt; border-bottom: 1px solid #e5e5e5; padding-bottom: 15px; }
+#obsah .coll75 .text { font-weight: normal; color: #4c4c4c; text-align: justify; font-size: 11pt; margin-top: 40px; line-height: 25px; }
+
+#obsah .coll25 { float: right; text-align: left; width: 250px; }
+#obsah .coll25 .nadpis { font-weight: bold; color: #e61a2b; text-transform: uppercase; text-align: left; font-size: 14pt; border-bottom: 1px solid #e5e5e5; padding-bottom: 15px; }
+#obsah .coll25 .text { font-weight: normal; color: #4c4c4c; text-align: justify; font-size: 11pt; margin-top: 40px; line-height: 25px; }
+.yes { background: url(../img/yes.png) no-repeat; width: auto; background-position: left; padding-left: 25px; line-height: 30px; }
+
+#obsah .coll100 { float: right; text-align: left; width: 1000px; }
+#obsah .coll100 .nadpis { font-weight: bold; color: #e61a2b; text-transform: uppercase; text-align: left; font-size: 14pt; border-bottom: 1px solid #e5e5e5; padding-bottom: 15px; }
+#obsah .coll100 .text { font-weight: normal; color: #4c4c4c; text-align: justify; font-size: 11pt; margin-top: 40px; line-height: 25px; }
+
+.vacsi { font-size: 14pt; padding: 20px 0px; }
+a.boxik { float: left; display: block; color: #fff; background: #d13737; padding: 45px 41px; cursor: pointer; font-size: 13pt; margin-left: 5px; }
+a.boxik:hover { text-decoration: none; background: #ba1a1a; color: #fff; }
+
+footer { background: #f2f2f2; padding: 30px 0px 40px 0px; margin-top: 50px; font-size: 10pt; }
+.bufi { float: right; margin: 0 auto 0 auto; text-align: center; width: 149px; height: 16px; background: url(../img/bufi.png) no-repeat; cursor: pointer; }
+.bufi:hover { 
+	height: 16px; 
+	background-position: 0px -16px;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+ }
+
+
+
+a { color: #333; text-decoration: none; }
+a:hover { color: #333; text-decoration: underline; }
+
+a.maill { color: #333; text-decoration: none; background: url(../img/mail.png) no-repeat; padding-left: 40px; background-position: left; }
+a.maill:hover { color: #e51d25; text-decoration: underline; }
+
+.pink { color: #cc0066; }
+.right { text-align: right; }
+.tabtop { vertical-align: top; }
+.tabmiddle { vertical-align: middle; }
+.bold { font-weight: bold; }
+.center { text-align: center; } 
+.fright { float: right; } 
+.fleft { float: left; }
+strong { font-weight: bold }
+p { margin: 5px 0px; }
+
+.clearfix:after {content: ".";display: block;clear: both;visibility: hidden;line-height: 0;height: 0;}
+.clearfix {display: inline-block;}
+html[xmlns] .clearfix {display: block;}
+* html .clearfix {height: 1%;}
